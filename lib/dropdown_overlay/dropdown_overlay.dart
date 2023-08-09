@@ -119,7 +119,7 @@ class _DropdownOverlayState extends State<_DropdownOverlay> {
       displayOverlayBottom
           ? Icons.keyboard_arrow_up_rounded
           : Icons.keyboard_arrow_down_rounded,
-      color: Colors.black,
+      color: Color(0xff273348),
       size: 20,
     );
 
