@@ -177,7 +177,7 @@ class _DropdownOverlayState extends State<_DropdownOverlay> {
               padding: _overlayOuterPadding,
               child: DecoratedBox(
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: Color(0xff273348),
                   borderRadius: borderRadius,
                   boxShadow: [
                     BoxShadow(
