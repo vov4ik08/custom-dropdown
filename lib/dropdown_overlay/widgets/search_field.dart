@@ -92,6 +92,7 @@ class _SearchFieldState extends State<_SearchField> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8),
       child: TextField(
+        style: TextStyle(color: Colors.black),
         focusNode: focusNode,
         onChanged: (val) async {
           if (val.isEmpty) {
